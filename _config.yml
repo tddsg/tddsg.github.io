@@ -1,0 +1,58 @@
+
+# SEO settings
+title: "[PL] Endless Recursion: "
+title2: " The boring recursion!" # default: ""
+description: "The boring blog of endless recursion of time!"
+keywords: "boring"
+url: http://tddsg.github.io # site url
+# baseurl: "/thinkspace" # apply repo name if use it under gh-pages branch
+baseurl: null # apply null if repo name is something like username.github.io
+
+# google_analytics: UA-XXXXX-XX
+# repo: http://github.com/heiswayi/thinkspace
+# disqus_shortname: "heiswayi"
+# twitter_username: "HeiswayiNrird"
+# comments: true
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "Day Dreamer"
+  # job      : "Dreaming"
+  bio      : "Endless boring!"
+  # thumb    : /images/author.jpg
+  email    : thedaydreamersg@gmail.com
+  # url      :
+  # github   :
+  # twitter  :
+  # facebook :
+  # linkedin :
+
+# social settings
+og_locale: "en_US"
+twitter_card: "summary_large_image"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
