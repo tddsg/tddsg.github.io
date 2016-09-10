@@ -16,4 +16,6 @@ author: tddsg
     - Bulldog: A Compiler for VLIW Architecture (John Ellis' dissertation)
     - A Handbook for Scholars, by Mary-Claire van Leunen.
 
+  * [A Survival Guide to a PhD](http://karpathy.github.io/2016/09/07/phd/), by Andrej Karpathy
+
 
