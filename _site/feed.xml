@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-09-10T13:31:28+08:00</updated><id>http://localhost:4000/</id><title>Endless Recursion</title><subtitle>The boring recursion.</subtitle><author><name>TDDSG</name></author><entry><title>Reading list</title><link href="http://localhost:4000/reading-list/" rel="alternate" type="text/html" title="Reading list" /><published>2016-09-09T00:00:00+08:00</published><updated>2016-09-09T00:00:00+08:00</updated><id>http://localhost:4000/reading-list</id><content type="html" xml:base="http://localhost:4000/reading-list/">&lt;h2 id=&quot;reading-on-writings&quot;&gt;Reading on writings&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ccs.neu.edu/home/shivers/diss-advice.html&quot;&gt;Dissertation advice from Olin Shiver&lt;/a&gt;.&lt;br /&gt;
+  Recommended by Olin Shiver:
+    &lt;ul&gt;
+      &lt;li&gt;Bulldog: A Compiler for VLIW Architecture (John Ellis’ dissertation)&lt;/li&gt;
+      &lt;li&gt;A Handbook for Scholars, by Mary-Claire van Leunen.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>tddsg</name></author><summary>Reading on writings</summary></entry><entry><title>Installing Haskell and its libraries</title><link href="http://localhost:4000/installing-haskell-and-libraries/" rel="alternate" type="text/html" title="Installing Haskell and its libraries" /><published>2016-08-07T00:00:00+08:00</published><updated>2016-08-07T00:00:00+08:00</updated><id>http://localhost:4000/installing-haskell-and-libraries</id><content type="html" xml:base="http://localhost:4000/installing-haskell-and-libraries/">&lt;p&gt;This is my first attempt to install Haskell and its libraries.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;using-official-repository-of-ubuntu&quot;&gt;Using official repository of Ubuntu&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Very troublesome, especially when using Cabal to install packages, I
+faced all kind of problems.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;manually-install&quot;&gt;Manually install&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;It seem the best choices for the moment.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;First download and install the &lt;em&gt;minimal&lt;/em&gt; Haskell package.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install the newest Cabal package (1.24.***, by 2016) by&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cabal install cabal-install
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If thing doesn’t work out, try &lt;code class=&quot;highlighter-rouge&quot;&gt;--reinstall&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;install-packages&quot;&gt;Install packages:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Install from Haskell sever:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cabal install &amp;lt;package-name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install manually:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Alternative choise in the case of failing to install it from
+Haskell server&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Download the package, from Hackage, Github or wherever places.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Unpack, enter to the package’s directory
+and run &lt;code class=&quot;highlighter-rouge&quot;&gt;cabal install&lt;/code&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;install-wxhaskell&quot;&gt;Install WxHaskell.&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The command &lt;code class=&quot;highlighter-rouge&quot;&gt;cabal install wx&lt;/code&gt; does not work at all~&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The best solution is to manually install it&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Some commands may be needed&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install libwxgtk-media3.0-dev
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The nice things about Cabal is that it can be used for install
+locally download packages:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cabal update
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;wxdirect
+cabal install
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ../wxc
+cabal install
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ../wxcore
+&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;:~/.cabal/bin
+cabal install
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ../wx
+cabal install
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name>tddsg</name></author><summary>This is my first attempt to install Haskell and its libraries.</summary></entry></feed>

@@ -1,0 +1,331 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Installing Haskell and its libraries - Endless Recursion</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Endless Recursion">
+<meta property="og:title" content="Installing Haskell and its libraries">
+
+
+  <link rel="canonical" href="http://localhost:4000/installing-haskell-and-libraries/">
+  <meta property="og:url" content="http://localhost:4000/installing-haskell-and-libraries/">
+
+
+
+  <meta property="og:description" content="Haskell">
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2016-08-07T00:00:00+08:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "TDDSG",
+      "url" : "http://localhost:4000",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Endless Recursion Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Endless Recursion</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://mmistakes.github.io/minimal-mistakes/docs/navigation/">Sample Navigation Link</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/">Sample Navigation Link 2</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Installing Haskell and its libraries">
+    <meta itemprop="description" content="This is my first attempt to install Haskell and its libraries.">
+    <meta itemprop="datePublished" content="August 07, 2016">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Installing Haskell and its libraries
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p>This is my first attempt to install Haskell and its libraries.</p>
+
+<hr />
+
+<h1 id="using-official-repository-of-ubuntu">Using official repository of Ubuntu</h1>
+
+<ul>
+  <li>Very troublesome, especially when using Cabal to install packages, I
+faced all kind of problems.</li>
+</ul>
+
+<hr />
+
+<h1 id="manually-install">Manually install</h1>
+
+<p><em>It seem the best choices for the moment.</em></p>
+
+<ul>
+  <li>
+    <p>First download and install the <em>minimal</em> Haskell package.</p>
+  </li>
+  <li>
+    <p>Install the newest Cabal package (1.24.***, by 2016) by</p>
+  </li>
+</ul>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>cabal install cabal-install
+</code></pre>
+</div>
+
+<ul>
+  <li>If thing doesn’t work out, try <code class="highlighter-rouge">--reinstall</code></li>
+</ul>
+
+<h3 id="install-packages">Install packages:</h3>
+
+<ul>
+  <li>Install from Haskell sever:</li>
+</ul>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>cabal install &lt;package-name&gt;
+</code></pre>
+</div>
+
+<ul>
+  <li>
+    <p>Install manually:</p>
+
+    <ul>
+      <li>
+        <p>Alternative choise in the case of failing to install it from
+Haskell server</p>
+      </li>
+      <li>
+        <p>Download the package, from Hackage, Github or wherever places.</p>
+      </li>
+      <li>
+        <p>Unpack, enter to the package’s directory
+and run <code class="highlighter-rouge">cabal install</code></p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="install-wxhaskell">Install WxHaskell.</h3>
+
+<ul>
+  <li>
+    <p>The command <code class="highlighter-rouge">cabal install wx</code> does not work at all~</p>
+  </li>
+  <li>
+    <p>The best solution is to manually install it</p>
+  </li>
+  <li>
+    <p>Some commands may be needed</p>
+  </li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo apt-get install libwxgtk-media3.0-dev
+</code></pre>
+</div>
+
+<ul>
+  <li>The nice things about Cabal is that it can be used for install
+locally download packages:</li>
+</ul>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>cabal update
+<span class="nb">cd </span>wxdirect
+cabal install
+<span class="nb">cd</span> ../wxc
+cabal install
+<span class="nb">cd</span> ../wxcore
+<span class="nv">PATH</span><span class="o">=</span><span class="nv">$PATH</span>:~/.cabal/bin
+cabal install
+<span class="nb">cd</span> ../wx
+cabal install
+</code></pre>
+</div>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2016-08-07T00:00:00+08:00">August 07, 2016</time></p>
+        
+      </footer>
+
+      
+
+      
+
+
+  <nav class="pagination">
+    
+      <a href="#" class="pagination--pager disabled">Previous</a>
+    
+    
+      <a href="http://localhost:4000/reading-list/" class="pagination--pager" title="Reading list
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2016 TDDSG. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+
+  </body>
+</html>
+
