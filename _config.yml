@@ -11,7 +11,7 @@ title                    : "Parentheses the Ultimate"
 title_separator          : "-"
 name                     : "TDDSG"
 description              : "Weblog about programming and life."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://tddsg.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : tddsg/tddsg.github.io
                            # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
