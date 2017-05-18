@@ -7,3 +7,13 @@
 // node, that can not exist in nature, but can be synthesized in a computer
 // scientist's overactive imagination.
 #+END_SRC
+
+* Sayings
+ - When in Rome, do as the Romans do.
+ - Don't let your circumstances dictate who you are.
+
+* Readings
+- A Handbook for Scholars, by Mary-Claire van Leunen.
+- [[http://www.ccs.neu.edu/home/shivers/diss-advice.html][Dissertation advice from Olin Shiver]]
+- Bulldog: A Compiler for VLIW Architecture (John Ellis' dissertation)
+- [[http://karpathy.github.io/2016/09/07/phd/][A Survival Guide to a PhD]]
