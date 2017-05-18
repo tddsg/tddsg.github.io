@@ -49,3 +49,18 @@ fi
 ### Useful commands ###
 
 * Kill buffers matched by regular expression: `kill-matching-buffers`
+
+## Emacs jokes ##
+
+  * *Q*: What is the best way to avoid getting “Emacs Pinky”? \\
+    *A*: Making caps lock another control key is a good place to start.
+    Invest in an ergonomic keyboard.
+    Some emacs users even go as far as to get foot pedal things for control and meta...\\
+    (*Source*: [http://stackoverflow.com/questions/52492/what-is-the-best-way-to-avoid-getting-emacs-pinky](http://stackoverflow.com/questions/52492/what-is-the-best-way-to-avoid-getting-emacs-pinky))
+
+  * *Q*: How do Evil Users Feel about God-Mode?\\
+    *A*: God mode does not have any effect for me since I run emacs as a daemon.
+    (*Source*: [https://www.reddit.com/r/emacs/comments/2sb8lj/how_do_evil_users_feel_about_godmode/](https://www.reddit.com/r/emacs/comments/2sb8lj/how_do_evil_users_feel_about_godmode/))
+
+  * *Q*: Duality? \\
+    *A*: Parentheses or brackets? Light side or dark side?
