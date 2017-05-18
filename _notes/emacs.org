@@ -1,0 +1,38 @@
+* Org-mode
+** Using easy-template:
+- Tutorial: http://orgmode.org/manual/Easy-Templates.html
+- Type '<', followed by a template selector, and <TAB>.
+- E.g.: 's' for source, 'e' for example, 'q' for quote
+
+* Gtags:
+I wrote a guide on how to use GNU Global and ggtags for browsing
+Linux kernel source: http://tuhdo.github.io/emacs-tutor.html#sec-8 .
+Look at the demo at the beginning, you can see that
+I can complete symbols from <linux/printk.h> fine.
+If you want to jump to included header files from =/usr/include=, do it like this:
+- Create a ~/.gtags directory
+- cd ~/.gtags
+- ln -s /usr/include include
+- gtags
+Then, customize the ggtags-process-environment and
+add this string: =GTAGSLIBPATH=/home/<your username>/.gtags=
+From now on, you can freely jump to any header file from /usr/include
+You can add more system header directories by symlink and regenerate tags.
+ggtags: https://github.com/leoliu/ggtags
+Finally, don't use built-in etags or exuberant ctags for C/C++ code. Better alternative exists: GNU Global
+
+* RTags:
+** Installation:
+- Tutorial 1: http://syamajala.github.io/c-ide.html
+- Tutorial 2: https://github.com/Andersbakken/rtags#tldr-quickstart
+- Tutorial 3: https://skebanga.github.io/rtags-with-cmake-in-spacemacs/
+
+** Running:
+- Run sever: =rdm &=
+- Code indexing:
+#+BEGIN_SRC
+cd ~/src/project
+mkdir build && cd build
+cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 ..
+rc -J ./compile_commands.json
+#+END_SRC

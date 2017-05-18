@@ -1,0 +1,41 @@
+* Linux general:
+
+** Disable / enable CTRL + ALT + BACKSPACE in Linux
+- =sudo dpkg-reconfigure keyboard-configuration=
+- choose the default keyboard style
+- press =PageDown= until the last page of the setup screen
+- enable/disable the setting of =Ctrl + Alt + Backspace=
+
+** Emacs keyboard style for Cinnamon
+- install and run dconf-editor.
+- modify the key 'org.cinnamon.desktop.interface.gtk-key-theme'
+  to Emacs or Default to enable or disable Emacs keyboard style.
+
+* Git
+** Github through a proxy:
+
+*** Setting git proxy for git:// protocol:
+
+#+BEGIN_SRC shell
+git config --global url.https://github.com/.insteadOf git://github.com/
+#+END_SRC
+
+* SSH:
+
+** Keep server alive:
+#+BEGIN_SRC shell
+Host *
+ServerAliveInterval 60    # repeatedly send message to server in 60s
+#+END_SRC
+
+
+* Proxy setting
+
+- Copy the following into =~/.profile=
+
+  #+BEGIN_SRC shell
+  export https_proxy=http://your-website.com:your-port
+  export http_proxy=http://your-website.com:your-port
+  export ftp_proxy=http://your-website.com:your-port
+  export no_proxy=127.0.0.1,localhost,*.your-website.com
+  #+END_SRC

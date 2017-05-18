@@ -1,0 +1,2 @@
+* Coding style:
+** Google coding style guide: https://google.github.io/styleguide/

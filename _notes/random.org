@@ -1,0 +1,9 @@
+* Nice comments
+
+** PHINode in LLVM:
+
+#+BEGIN_SRC
+// PHINode - The PHINode class is used to represent the magical mystical PHI
+// node, that can not exist in nature, but can be synthesized in a computer
+// scientist's overactive imagination.
+#+END_SRC
