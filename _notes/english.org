@@ -10,39 +10,64 @@
 * Phrases:
 
 - Fast growth.
-- Food for thought.
-- Train of thought: (idiom) the connected series of thoughts that are
-  in your head at a particular time
-- Stepping stone.
-- Everything melt into mist
-- At the end of the day
-- Hinge on something: its validity hinges on the validity of $E$
-- Delve into something: research more on sth
-- For the crux of correctness, for the crux of sth: (crux: a particular point of
-  difficulty)
-- tailor-made smth: smth made for specific purpose
-- its great asset lies in its assertion language
-- to augment smth: to make smth greater by addition
-- in the sequel simply called …
-- However, these algorithms are more complex to write, and are prone to error.
-- Superfluous = unnecessary
-- In a similar fashion, in the same manner
-- As a result, as a consequence
-- In other words, to put it another way, alternatively, that means
-- To the best of our knowledge, to the extent of our knowledge
-- To some extent, to certain extent, to what extent, to a lesser extent, to such
-  an extent: used to show how far sth is true or how great an effect it has
-- Modus operandi: a particular method of working
-- Modus vivendi: an arrangement allowing conflicting parties to coexist
+- /Food for thought/.
+- /Train of thought/: (idiom) the connected series of thoughts that are in your
+  head at a particular time
+- /Stepping stone/.
+- /Everything melt into mist/
+- /Hinge on something/: its validity hinges on the validity of $E$
+- /Delve into something/: research more on sth
+- /For the crux of correctness, for the crux of sth/: a particular point of
+  difficulty
+- Tailor-made smth/: smth made for specific purpose
+- /Its great asset lies in/ its assertion language
+- /To augment smth/: to make smth greater by addition
+- /In the sequel simply called .../
+- However, these algorithms are more complex to write, and are /prone to error/.
+- /Superfluous/ = unnecessary
+- /In a similar fashion, in the same manner/
+- /As a result, as a consequence/
+- /In other words, to put it another way, alternatively, that means/
+- /To the best of our knowledge, to the extent of our knowledge/
+- /To some extent, to certain extent, to what extent, to a lesser extent, to
+  such an extent/: used to show how far sth is true or how great an effect it
+  has
+- /Modus operandi/: a particular method of working
+- /Modus vivendi/: an arrangement allowing conflicting parties to coexist
   peacefully
-- Beforehand, in advance
+- /Beforehand, in advance/
 
 * Informal phrases:
 
-- It does exactly what it says on the tin: (informal, saying) used to say that
+- /At the end of the day/
+- /It does exactly what it says on the tin/: (informal, saying) used to say that
   sth is as good or effective as it claims to be, or that it really does what it
   claims to do. This expression is especially used when you are comparing
   publicity and advertisements with actual products
-- At any rate, in any case, anyway, anyhow, nonetheless, at all events, by any
-  means, in any event, notwithstanding
-- Hereinafter, hereafter, hereunder (adv): in a subsequent part of this document
+- /At any rate, in any case, anyway, anyhow, nonetheless, at all events, by any
+  means, in any event, notwithstanding/
+- /Hereinafter, hereafter, hereunder/ (adv): in a subsequent part of this document
+
+* Writing email:
+** Email opening:
+- Dear Sir. My name is Trung. Probably you have received emails from me a couple
+  of times in the past. I am still in charge of attracting participants to the
+  Korean Government's open source software competition. This is the 10th annual
+  event.
+- Dear Sir. I am Trung. I have written to you once or twice before.
+- Dear Sir. I'm glad to be in contact with you. I'm looking forward to hearing
+  from you soon.
+
+** Email sign off:
+- Nothing: good for short emails as part of a longer discussion
+- Thanks, thanks again: always works for emails in which you ask for a favour
+- Hope that helps: responding to other people’s emails that end in 'thanks'.
+- See you soon, talk soon: especially when you’re arranging a meeting or follow
+  up call
+- Hope the rest of your day is less frantic: or some other set of well wishes
+  that reflect a person’s current state
+- Hope you’re well: good for people you haven’t been in contact with for a while
+- Bye: this is, of course, quirky because it is so classic so I use it only
+  occasionally
+- Take care: for people travelling or about to head off
+- Have a great day!

@@ -11,3 +11,8 @@
   the program and steal all your data. It’s gone from being a bug that’s bad but
   tolerable to a vulnerability, which is much worse,” he said.\\
   -- From [[https://www.quantamagazine.org/20160920-formal-verification-creates-hacker-proof-code/][Hacker-Proof Code Confirmed]]
+
+* Writing paper:
+** Acknowledgement:
+- Thanks people for helping you revise, proof reading papers
+- Thanks people for helping you to improve works, projects
