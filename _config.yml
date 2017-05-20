@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Parentheses the Ultimate"
+title                    : "The daydreamer in Singapore"
 title_separator          : "-"
 name                     : "TDDSG"
 description              : "Weblog about programming and life."
@@ -64,8 +64,8 @@ analytics:
 author:
   name             : "TDDSG"
   avatar           : "bio-photo.jpg"
-  bio              : "I am a day dreamer."
-  location         : "Somewhere"
+  bio              : "The daydreamer in Singapore."
+  location         : "Singapore"
   email            :
   uri              :
   bitbucket        :
