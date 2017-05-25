@@ -7,8 +7,8 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Double Cappuccino"
-title_separator          : "- Espresso + double milk"
+title                    : "Double cappuccino"
+title_separator          : "-"
 name                     : "tddsg"
 description              : "Weblog about programming and life."
 url                      : "https://tddsg.github.io"
