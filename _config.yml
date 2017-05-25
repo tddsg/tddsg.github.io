@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "The daydreamer in Singapore"
-title_separator          : "-"
-name                     : "TDDSG"
+title                    : "Double Cappuccino"
+title_separator          : "- Espresso + double milk"
+name                     : "tddsg"
 description              : "Weblog about programming and life."
 url                      : "https://tddsg.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
